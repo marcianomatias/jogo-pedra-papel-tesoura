@@ -1,0 +1,66 @@
+body{
+    background-color: #f1f1f1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding:0;
+    
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    padding-top:100px ;   
+}
+
+p {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+button {
+    border: none;
+    font-size: 3rem;
+    margin: 0 1.5rem;
+    padding: 2.5rem;
+    cursor: pointer;
+    background-color: blueviolet;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+    box-shadow: 9px 11px 13px 0px rgba(0, 0, 0, 0.445);
+}
+
+button:hover {
+    opacity: .7;
+}
+
+#pedra {
+    background-color: #ff0000;   
+    padding: 1.5rem;
+}
+
+#papel {
+    background-color: #2196f3; 
+    padding: 1.5rem; 
+
+}
+
+#tesoura {
+    background-color: #4caf50;    
+    padding: 1.5rem; 
+
+}
+
+#user-score {
+    color: #2196f3;
+}
+
+#computer-score {
+    color: #ff0000;
+}
